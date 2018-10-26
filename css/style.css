@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+	background: #FBFBEA;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 17px;
+	top: 30px;
+}
+
+footer {
+	display: none;
+}
+
+li {
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+.space{
+	width: 0%;
+}
+
+.awesome{
+	display: inline-block;
+	background: transparent;
+	width: 10%;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	color: white; 
+	background-color: black;;
+	text-decoration: none;
+}
+
+i{
+	color: pink;
+}
+
+.word, .image{
+	width: 100%;
+}
+
+img{
+	width: 50%;
+}
+
+.travel img{
+	margin-left: 10%;
+}
+
+.NQ img{
+	margin-left: 30%;
+}
+
+@media screen and (min-width: 768px){
+	.awesome{
+		width: 3%;
+	}
+	
+	.space{
+		width: 0%;
+	}
+
+	li {
+		display: inline-block;
+		background: transparent;
+		width: 18%;
+		text-align: center;	
+	}
+
+	.image{
+		width: 30%;
+		float: left;
+		margin: 10px;
+	}
+	
+	.word{
+		width: 60%;
+		float: left;
+	}
+
+	.NQ p{
+		width: 100%;
+		float: left;
+	}
+
+	.NQ img{
+		margin-left: 40%;
+	}
+}
+
+@media screen and (orientation: landscape){	
+	.space{
+		width: 25%;
+	}
+	
+	li{
+		width: 12%;	
+	}
+
+	.NQ p{
+		margin-left: 10px;
+	}
+
+	.NQ img{
+		margin-left: 50%;
+	}
+
+	footer{
+		display: block;
+		text-align: center;
+	}
+
+	.travel_mountain{
+		width: 23%;
+	}
+	
+	.travel_beijing{
+		width: 50%;
+	}
+
+}
